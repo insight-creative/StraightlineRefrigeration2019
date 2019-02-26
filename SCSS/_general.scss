@@ -1,0 +1,20 @@
+/* 8.0 General Body Styles -------------------------------------------*/
+body{
+	background: #ffffff;
+	margin: 0;
+}
+::selection{
+		background: rgba(0, 128, 197, .5);
+}
+::-moz-selection{
+	background: rgba(0, 128, 197,.5);
+}
+.plainLink{
+	text-decoration: none;
+	color: $primaryColor;
+	transition: .3s ease all;
+    &:hover{
+    color: $secondaryColor;
+    transition: .3s ease all;
+    }
+}

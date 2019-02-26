@@ -1,0 +1,72 @@
+/* 7.0 Button Stylings ---------------------------------------*/
+.primaryButton{
+	position: relative;
+	z-index:1;
+  width: fit-content;
+	width: -moz-fit-content;
+	width: -ms-fit-content;
+	border: 2px solid $primaryColor !important;
+	border-radius: 30px !important;
+	background: $primaryColor !important;
+	padding: 10px 50px 10px 50px !important;
+	color: $white !important;
+	text-shadow: 0 1px 1px rgba(0,0,0,1) !important;
+  text-decoration: none;
+	margin-bottom: 10px !important;
+	transition: .3s ease all !important;
+  box-shadow: 1px 2px 10px rgba(42,42,42,.6) !important;
+	cursor: pointer !important;
+    &:hover{
+      background: $transparent!important;
+    	transition: .3s ease all !important;
+    	color: $primaryColor !important;
+    }
+}
+.primaryButtonReverse{
+	position: relative;
+	z-index:1;
+  width: fit-content;
+	border: 2px solid $primaryColor;
+	border-radius: 30px;
+	padding: 10px 50px 10px 50px;
+	color: $primaryColor;
+	margin-bottom: 10px;
+	transition: .3s ease all;
+  text-decoration: none;
+	cursor: pointer;
+    &:hover{
+      background: $primaryColor;
+    	transition: .3s ease all;
+    	color: $white;
+    }
+}
+.whiteButton{
+	position: relative;
+	z-index:1;
+  width: fit-content;
+	border: 2px solid $white;
+	border-radius: 30px;
+	background: $white;
+	padding: 10px 50px 10px 50px;
+  text-decoration: none;
+	color: $primaryColor;
+	transition: .3s ease all;
+	cursor: pointer;
+  box-shadow: 1px 2px 10px rgba(42,42,42,.6);
+    &:hover{
+      background: $transparent;
+    	color: $white;
+    	transition: .3s ease all;
+    }
+}
+.centerButton{
+	margin: 0 auto;
+	text-align: center;
+}
+.buttonWrap{
+	display: flex;
+	justify-content: space-evenly;
+	width: 100%;
+	margin: 50px auto;
+	text-align: center;
+}

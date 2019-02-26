@@ -1,0 +1,224 @@
+/* 5.0 Footer Stylings -------------------------------------------*/
+.site-footer{
+	position: relative;
+	z-index: 2;
+	background-color: $white;
+	width: 100%;
+	color: $black;
+	padding: 0 0 50px 0;
+	margin: 0 auto;
+}
+.footerLogo{
+	height: auto;
+	width: 300px;
+		@include breakpoint(smallScreen){
+			width: 250px;
+		}
+		@include breakpoint(largeMobileScreen){
+			width: 250px;
+		}
+		@include breakpoint(laptopScreen){
+			width: 200px;
+		}
+		@include breakpoint(largeScreen){
+			width: 300px;
+		}
+}
+.footerContact{
+	padding: 50px 0 50px 0;
+	display: flex;
+	align-items: center;
+	  a{
+	  	text-decoration: none;
+	  	color: $primaryColor;
+	  	transition: .3s ease all;
+	      &:hover{
+	        color: $secondaryColor;
+	        transition: .3s ease all;
+	      }
+  	}
+}
+#footerLogo{
+	@include breakpoint(smallScreen){
+		text-align:center;
+	}
+	@include breakpoint(largeMobileScreen){
+		text-align:center;
+	}
+	@include breakpoint(laptopScreen){
+		text-align:left;
+	}
+}
+.footerLinkWrap{
+	text-align: right;
+	display: flex;
+	flex-direction: column;
+		@include breakpoint(smallScreen){
+			text-align: center;
+		}
+		@include breakpoint(largeMobileScreen){
+			text-align: center;
+		}
+		@include breakpoint(laptopScreen){
+			text-align: right;
+		}
+		a{
+				@include breakpoint(smallScreen){
+					padding: 20px 0 20px 0;
+				}
+				@include breakpoint(largeMobileScreen){
+					padding: 20px 0 20px 0;
+				}
+				@include breakpoint(tabletScreen){
+					padding: 5px 0 5px 0;
+				}
+		}
+}
+.footerLink{
+	position: relative;
+	color: $primaryColor;
+	text-decoration: none;
+	padding: 10px 20px 10px 20px;
+	margin: 10px 0 10px 0;
+	transition: .3s ease all;
+	font-size: 20px;
+    &:after{
+      position: absolute;
+    	height: 0;
+    	width: 3px;
+    	background: $primaryColor;
+    	content: "";
+    	transition: .3s ease all;
+    	bottom: 12px;
+    	left: 0;
+    }
+    @include breakpoint(smallScreen){
+      bottom: 0;
+      width: 0%;
+    }
+      &:hover{
+        &:after{
+          width: 3px;
+        	height: 50%;
+        	transition: .3s ease all;
+        }
+      }
+}
+#footerEmail{
+	font-size: 22px;
+		@include breakpoint(smallScreen){
+			font-size: 16px;
+		}
+}
+#copyrightWrap{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	@include breakpoint(smallScreen){
+		justify-content: center;
+	}
+	@include breakpoint(largeMobileScreen){
+		justify-content: center;
+	}
+	@include breakpoint(laptopScreen){
+		justify-content: left;
+	}
+}
+#copyright{
+	background: $primaryColor;
+	color: $white;
+	margin-bottom: -50px;
+	font-size: 16px;
+	display: flex;
+	flex-direction: row;
+		@include breakpoint(smallScreen){
+			font-size: 14px;
+		}
+		@include breakpoint(largeMobileScreen){
+			font-size: 14px;
+		}
+    @include breakpoint(laptopScreen){
+      flex-direction: row;
+			font-size: 12px;
+    }
+		@include breakpoint(largeScreen){
+      flex-direction: row;
+			font-size: 16px;
+    }
+      a{
+        text-decoration: none;
+      	color: $white;
+      }
+	      &:hover{
+	        color: $lightGrey;
+	      }
+}
+#copyrightContentWrap{
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+    @include breakpoint(smallScreen){
+      justify-content: center;
+      flex-direction: column;
+    }
+		@include breakpoint(largeMobileScreen){
+			justify-content: center;
+      flex-direction: column;
+		}
+		@include breakpoint(laptopScreen){
+			display: flex;
+			align-items: center;
+			flex-direction: row;
+		}
+}
+#copyrightLinkWrap{
+	text-align: center;
+		a{
+			color: $white;
+			text-decoration: none;
+		}
+			&:hover{
+				color: $secondaryColor;
+			}
+}
+#privacyWrap{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.borderRight{
+	border-right: 1px solid $white;
+	padding: 0 10px 0 10px;
+}
+#privacyLink{
+	padding: 0 10px 0 10px;
+}
+#contactLink{
+	padding: 0 10px 0 10px;
+}
+#siteAuthor{
+	text-align: right;
+		@include breakpoint(smallScreen){
+			text-align: center;
+			padding: 10px;
+		}
+		@include breakpoint(largeMobileScreen){
+			text-align: center;
+			padding: 10px;
+		}
+		@include breakpoint(laptopScreen){
+			text-align: right;
+		}
+}
+#siteAuthorLink{
+	a{
+		color: $white;
+		text-decoration: none;
+	}
+		&:hover{
+			color: $secondaryColor;
+		}
+}
+.noStyle{
+	font-style: normal;
+}
