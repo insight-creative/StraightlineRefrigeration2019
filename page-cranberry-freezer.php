@@ -1,19 +1,14 @@
 <?php
 /**
- * Template Name: Contact
- *
- * This is the template that displays all pages by default.
- * Please note that this is the WordPress construct of pages
- * and that other 'pages' on your WordPress site may use a
- * different template.
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package straightlineRefrigerationResponsive
+ * @package StraightlineRefrigerationResponsive
  */
 get_header();
 
 ?>
+
 <div id="barba-wrapper">
 
 	<div class="barba-container">
@@ -75,7 +70,29 @@ get_header();
 
 								<div class="col60 contactWrap centeredContainer">
 
-									<?php echo do_shortcode('[caldera_form id="CF5c7d6d9457fa6"]'); ?>
+									<form id="primaryContact" action="https://formspree.io/jparsons@insightcreative.com" method="post">
+
+										<input type="hidden" name="_cc" value="kboisvert@straightlinerefrigeration.com,nluedtke@straightlinerefrigeration.com" />
+
+									  <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+									  <input type="hidden" name="_next" value="https://straightlinerefrigeration.com/contact/"/>
+
+									  <!-- all your input fields here.... -->
+									  <input type='text' name='firstName' placeholder='First Name' aria-label="first name" required/>
+
+										<input type='text' name='lastName' placeholder='Last Name' aria-label="last name" required/>
+
+										<input type='email' name='_replyto' placeholder='you@email.com' aria-label="email address" required/>
+
+										<input type='tel' name='phone' placeholder='Phone' aria-label="phone number" required/>
+
+										<textarea name="message" placeholder='Leave your message here' aria-label="leave your message here"></textarea>
+
+										<input type="text" name="_gotcha" style="display:none" />
+
+									  <input class="primaryButton" type='submit' value='Send' />
+
+									</form>
 
 								</div>
 
@@ -104,6 +121,7 @@ get_header();
 	</div>
 
 </div>
+
 <?php
 
 get_footer();

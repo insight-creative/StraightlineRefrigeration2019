@@ -72,7 +72,7 @@ get_header();
 												With a team of carefully assembled experts, we manage each job with the highest standards for customer service, product development, performance and safety.
 											</p>
 
-											<a href="{{ site.baseurl }}/about/" class="primaryButton" aria-label="Learn more about straightline refrigeration">Learn More About Us</a>
+											<a href="/about/" class="primaryButton" aria-label="Learn more about straightline refrigeration">Learn More About Us</a>
 
 										</div>
 
@@ -83,12 +83,12 @@ get_header();
 								<div class="col50">
 
 									<img
-									srcset="/img/straightlineRefrigerationShop-400.jpg 400w,
-									 /img/straightlineRefrigerationShop-600.jpg 600w,
-									 /img/straightlineRefrigerationShop-800.jpg 800w,
-									 /img/straightlineRefrigerationShop-1000.jpg 1000w,
-									 /img/straightlineRefrigerationShop-1200.jpg 1200w"
-									 data-src="/img/straightlineRefrigerationShop.jpg" class="image lazyload"
+									srcset="/wp-content/uploads/2019/03/straightlineRefrigerationShop-400.jpg 400w,
+									 /wp-content/uploads/2019/03/straightlineRefrigerationShop-600.jpg 600w,
+									 /wp-content/uploads/2019/03/straightlineRefrigerationShop-800.jpg 800w,
+									 /wp-content/uploads/2019/03/straightlineRefrigerationShop-1000.jpg 1000w,
+									 /wp-content/uploads/2019/03/straightlineRefrigerationShop-1200.jpg 1200w"
+									 data-src="/wp-content/uploads/2019/03/straightlineRefrigerationShop.jpg" class="image lazyload"
 									 alt="Straightline Refrigerations team working on custom fabrication projects in shop">
 
 								</div>
@@ -109,7 +109,7 @@ get_header();
 
 										<p class="whiteText">This custom freezer can hold—and help preserve—millions of pounds of cranberries.</p>
 
-										<a href="{{ site.baseurl }}/cranberry-freezer/" class="centerButton whiteButton" aria-label="Learn more about the cranberry freezer project">View Project</a>
+										<a href="/cranberry-freezer/" class="centerButton whiteButton" aria-label="Learn more about the cranberry freezer project">View Project</a>
 
 									</div>
 
@@ -126,12 +126,12 @@ get_header();
 								<div class="col50">
 
 									<img
-									srcset="/img/straightlineRefrigerationTeam-400.jpg 400w,
-									 /img/straightlineRefrigerationTeam-600.jpg 600w,
-									 /img/straightlineRefrigerationTeam-800.jpg 800w,
-									 /img/straightlineRefrigerationTeam-1000.jpg 1000w,
-									 /img/straightlineRefrigerationTeam-1200.jpg 1200w"
-									 data-src="/img/straightlineRefrigerationTeam-2.jpg" class="image lazyload"
+									srcset="/wp-content/uploads/2019/02/straightlineRefrigerationTeam-400.jpg 400w,
+									 /wp-content/uploads/2019/02/straightlineRefrigerationTeam-600.jpg 600w,
+									 /wp-content/uploads/2019/02/straightlineRefrigerationTeam-800.jpg 800w,
+									 /wp-content/uploads/2019/02/straightlineRefrigerationTeam-1000.jpg 1000w,
+									 /wp-content/uploads/2019/02/straightlineRefrigerationTeam-1200.jpg 1200w"
+									 data-src="/wp-content/uploads/2019/02/straightlineRefrigerationTeam.jpg" class="image lazyload"
 									 alt="Straightline Refrigerations team full team standing in from of Appleton office">
 
 								</div>
@@ -150,7 +150,7 @@ get_header();
 												get their hands dirty, you’ll find our team to be responsive, capable and flexible to accommodate your unique situation and needs.
 											</p>
 
-											<a href="{{ site.baseurl }}/about/" class="primaryButton" aria-label="Link to the straightline refrigeration contact page">Learn More About Us</a>
+											<a href="/about/" class="primaryButton" aria-label="Link to the straightline refrigeration contact page">Learn More About Us</a>
 
 										</div>
 
@@ -179,7 +179,7 @@ get_header();
 											<div class="overlayWrap">
 
 												<img
-												 data-src="{{site.baseurl}}/img/dairyServiceIndustry-800.jpg" class="blockImage lazyload"
+												 data-src="/wp-content/uploads/2019/02/dairyServiceIndustry-800.jpg" class="blockImage lazyload"
 												 alt="Straightline Refrigerations welder working on a custom fabricated cooling system for dairy project">
 
 												<div class="serviceTitle">
@@ -204,7 +204,7 @@ get_header();
 
 											<div class="overlayWrap">
 
-												<img class="blockImage lazyload" data-src="{{site.baseurl}}/img/FoodProcessingServiceIndustry-800.jpg"
+												<img class="blockImage lazyload" data-src="/wp-content/uploads/2019/03/FoodProcessingServiceIndustry-800.jpg"
 												alt="Straightline Refrigeration workers lowering down a large compressor motor onto rooftop with crane">
 
 												<div class="serviceTitle">
@@ -229,7 +229,7 @@ get_header();
 
 											<div class="overlayWrap">
 
-												<img class="blockImage lazyload" data-src="{{site.baseurl}}/img/ColdStorageServiceIndustry-800.jpg"
+												<img class="blockImage lazyload" data-src="/wp-content/uploads/2019/03/ColdStorageServiceIndustry-800.jpg"
 												alt="Straightline refrigeration working on a custom rooftop refrigeration installation">
 
 												<div class="serviceTitle">
@@ -272,7 +272,7 @@ get_header();
 
 												<div class="logoWrap">
 
-													<img src="/img/logos/IIAR_logo_swoosh_small.png" class="certLogo"
+													<img src="/wp-content/uploads/2019/02/IIAR_logo_swoosh_small.png" class="certLogo"
 													alt="iiar organization logo">
 
 												</div>
@@ -283,7 +283,7 @@ get_header();
 
 												<div class="logoWrap">
 
-													<img src="/img/logos/pipeWeldingBeureauTransparent.png" class="certLogo"
+													<img src="/wp-content/uploads/2019/02/pipeWeldingBeureauTransparent.png" class="certLogo"
 													alt="Pipe Welding Bereau organization logo">
 
 												</div>
@@ -294,7 +294,7 @@ get_header();
 
 												<div class="logoWrap">
 
-													<img src="/img/logos/ISN_WebFriendlyBadge.png" class="certLogo"
+													<img src="/wp-content/uploads/2019/02/ISN_WebFriendlyBadge.png" class="certLogo"
 													alt="isn organization logo">
 
 												</div>
@@ -305,7 +305,7 @@ get_header();
 
 												<div class="logoWrap">
 
-													<img src="/img/logos/ua-logo-transparent2.png" class="certLogo"
+													<img src="/wp-content/uploads/2019/02/ua-logo-transparent2.png" class="certLogo"
 													alt="UA organization logo">
 
 												</div>
@@ -316,7 +316,7 @@ get_header();
 
 												<div class="logoWrap">
 
-													<img src="/img/logos/MCAA.png" class="certLogo"
+													<img src="/wp-content/uploads/2019/02/MCAA.png" class="certLogo"
 													alt="MCAA organization logo">
 
 												</div>

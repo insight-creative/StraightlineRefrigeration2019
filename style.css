@@ -972,7 +972,7 @@ body {
 
 #featuredProjectWrap {
   position: relative;
-  background-image: url("../img/designBuild2Cropped.jpg");
+  background-image: url("/wp-content/uploads/2019/03/designBuild2Cropped.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -1170,7 +1170,7 @@ body {
 
 .siteCTAWrap {
   position: relative;
-  background-image: url("../img/designBuild3Cropped.jpg");
+  background-image: url("/wp-content/uploads/2019/03/designBuild3Cropped.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1193,7 +1193,7 @@ body {
 
 /* 11.0 About Page Styling --------------------------------------- */
 .teamHero {
-  background-image: url("../img/TeamPic01.04.19Cropped.jpg"); }
+  background-image: url("/wp-content/uploads/2019/03/TeamPic01.04.19Cropped.jpg"); }
 
 @media (max-width: 600px) {
   #contactWrap {

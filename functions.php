@@ -124,8 +124,8 @@ function straightlineRefrigerationResponsive_fonts_url() {
 	* supported by Libre Franklin and Open Sans, translate this to 'off'. Do not translate
 	* into your own language.
 	*/
- $MerriweatherSans = _x( 'on', 'Merriweather Sans font: on or off', 'straightlineRefrigerationResponsiveChild' );
- $OpenSans = _x( 'on', 'Open Sans font: on or off', 'straightlineRefrigerationResponsiveChild' );
+ $MerriweatherSans = _x( 'on', 'Merriweather Sans font: on or off', 'straightlineRefrigerationResponsive' );
+ $OpenSans = _x( 'on', 'Open Sans font: on or off', 'straightlineRefrigerationResponsive' );
 
  $font_families = array();
 
@@ -138,7 +138,7 @@ function straightlineRefrigerationResponsive_fonts_url() {
  }
 
 
- if ( in_array( 'on', array($Merriweather Sans, 	$OpenSans) ) ) {
+ if ( in_array( 'on', array($MerriweatherSans, 	$OpenSans) ) ) {
 
 	 $query_args = array(
 		 'family' => urlencode( implode( '|', $font_families ) ),
@@ -170,7 +170,7 @@ function straightlineRefrigerationResponsive_resource_hints( $urls, $relation_ty
 
  return $urls;
 }
-add_filter( 'wp_resource_hints', 'straightlineRefrigerationResponsiveChild_resource_hints', 10, 2 );
+add_filter( 'wp_resource_hints', 'straightlineRefrigerationResponsive_resource_hints', 10, 2 );
 
 
 /**

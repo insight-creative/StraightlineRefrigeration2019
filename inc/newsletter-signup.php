@@ -14,7 +14,7 @@
 
     <div class="col50 newsletterContent">
 
-      <h4>FAMILY & CHILDCARE RESOURCES OF N.E.W. NEWSLETTER</h4>
+      <h4>Straightline Refrigeration NEWSLETTER</h4>
 
       <p>
       Interested in learning more about our programs and services? Join our email list to stay up to date on the latest child care provider trainings,
