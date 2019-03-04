@@ -85,17 +85,17 @@ get_header();
 
 										<div class="serviceImage">
 
-											<a href="{{ site.baseurl }}/cranberry-freezer/" aria-label="Read about the Cranberry Freezer project">
+											<a href="/projects/cranberry-freezer/" aria-label="Read about the Cranberry Freezer project">
 
 												<div class="overlayWrap" data-tilt data-tilt-max="20" data-tilt-speed="400" data-tilt-perspective="2000">
 
 													<img
-													srcset="/img/projects/designBuildFeaturedProjectSmall-400.jpg 400w,
-													 /img/projects/designBuildFeaturedProjectSmall-600.jpg 600w,
-													 /img/projects/designBuildFeaturedProjectSmall-800.jpg 800w,
-													 /img/projects/designBuildFeaturedProjectSmall-1000.jpg 1000w,
-													 /img/projects/designBuildFeaturedProjectSmall.jpg 1200w"
-													 data-src="/img/projects/designBuildFeaturedProjectSmall.jpg" class="blockImage lazyload"
+													srcset="/wp-content/uploads/2019/03/designBuildFeaturedProjectSmall-400.jpg 400w,
+													 /wp-content/uploads/2019/03/designBuildFeaturedProjectSmall-600.jpg 600w,
+													 /wp-content/uploads/2019/03/designBuildFeaturedProjectSmall-800.jpg 800w,
+													 /wp-content/uploads/2019/03/designBuildFeaturedProjectSmall-1000.jpg 1000w,
+													 /wp-content/uploads/2019/03/designBuildFeaturedProjectSmall.jpg 1200w"
+													 data-src="/wp-content/uploads/2019/03/designBuildFeaturedProjectSmall.jpg" class="blockImage lazyload"
 													 alt="Custom Fabrication made by Straightline Refrigeration">
 
 													<div class="serviceTitle">
@@ -124,7 +124,7 @@ get_header();
 
 	                      <div class="centeredButton">
 
-													<a href="{{ site.baseurl }}/cranberry-freezer/" class="centerButton primaryButton" aria-label="Read about the Cranberry Freezer project">View Project</a>
+													<a href="/projects/cranberry-freezer/" class="centerButton primaryButton" aria-label="Read about the Cranberry Freezer project">View Project</a>
 
 	                      </div>
 

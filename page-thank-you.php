@@ -29,7 +29,7 @@ get_header();
 
 									<div class="heroHeading">
 
-										<h1 class="whiteText">Let’s Talk Solutions</h1>
+										<h1 class="whiteText">Thank You</h1>
 
 									</div>
 
@@ -46,7 +46,7 @@ get_header();
 
 				<div class="mobileHeroHeading">
 
-					<h1 class="whiteText">Let’s Talk Solutions</h1>
+					<h1 class="whiteText">Thank You</h1>
 
 				</div>
 
@@ -58,44 +58,10 @@ get_header();
 
 							<div id="formWrap" class="smallPaddedSection">
 
-								<h2>Contact Straightline Refrigeration</h2>
-
 								<p>
-									Whether a small challenge or a grand vision, we'll start with a solid plan. Set up a consultation!
+									Thank you for your message. We'll get back to you as soon as we can!
 								</p>
-
-								<h3>Call us at <a class="plainLink" href="tel:(920)903-1043">(920) 903-1043</a></h3>
-
-								<p>or complete the form below.</p>
-
-								<div class="col60 contactWrap centeredContainer">
-
-									<form id="primaryContact" action="https://formspree.io/jparsons@insightcreative.com" method="post">
-
-										<input type="hidden" name="_cc" value="kboisvert@straightlinerefrigeration.com,nluedtke@straightlinerefrigeration.com" />
-
-									  <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-									  <input type="hidden" name="_next" value="https://straightlinerefrigeration.com/contact/"/>
-
-									  <!-- all your input fields here.... -->
-									  <input type='text' name='firstName' placeholder='First Name' aria-label="first name" required/>
-
-										<input type='text' name='lastName' placeholder='Last Name' aria-label="last name" required/>
-
-										<input type='email' name='_replyto' placeholder='you@email.com' aria-label="email address" required/>
-
-										<input type='tel' name='phone' placeholder='Phone' aria-label="phone number" required/>
-
-										<textarea name="message" placeholder='Leave your message here' aria-label="leave your message here"></textarea>
-
-										<input type="text" name="_gotcha" style="display:none" />
-
-									  <input class="primaryButton" type='submit' value='Send' />
-
-									</form>
-
-								</div>
-
+								
 							</div>
 
 						</div>

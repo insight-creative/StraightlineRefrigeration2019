@@ -73,13 +73,13 @@ get_header();
 
 								<p>or complete the form below.</p>
 
-								<div class="col60 contactWrap centeredContainer">
-
-									<?php echo do_shortcode('[caldera_form id="CF5c7d6d9457fa6"]'); ?>
-
-								</div>
-
 							</div>
+
+						</div>
+
+						<div class="col60 contactWrap">
+
+							<?php echo do_shortcode('[caldera_form id="CF5c7d6d9457fa6"]'); ?>
 
 						</div>
 

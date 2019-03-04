@@ -113,14 +113,14 @@
     </div>
 
 	<!--  Script for barba.js  -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/barba.js/1.0.0/barba.min.js" type="text/javascript" async></script>
+  <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/barba.js/1.0.0/barba.min.js" type="text/javascript" async></script>-->
 
   <!-- Script for lazysizes lazy loading images -->
-  <script src="/js/lazysizes.min.js"></script>
+  <script src="/wp-content/themes/StraightlineRefrigerationResponsive/js/lazysizes.min.js"></script>
 
-  <script src="/js/main.min.js" type="text/javascript" async></script>
+  <script src="/wp-content/themes/StraightlineRefrigerationResponsive/js/main.js" type="text/javascript" async></script>
 
-  <script src="/js/jquery.formalize.min.js" type="text/javascript" async></script>
+  <script src="/wp-content/themes/StraightlineRefrigerationResponsive/js/jquery.formalize.min.js" type="text/javascript" async></script>
 
 </footer>
 

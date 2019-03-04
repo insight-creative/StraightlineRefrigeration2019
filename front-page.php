@@ -178,8 +178,7 @@ get_header();
 
 											<div class="overlayWrap">
 
-												<img
-												 data-src="/wp-content/uploads/2019/02/dairyServiceIndustry-800.jpg" class="blockImage lazyload"
+												<img data-src="/wp-content/uploads/2019/02/dairyServiceIndustry-800.jpg" class="blockImage lazyload"
 												 alt="Straightline Refrigerations welder working on a custom fabricated cooling system for dairy project">
 
 												<div class="serviceTitle">
@@ -341,7 +340,7 @@ get_header();
 
 										<div class="centeredButton">
 
-											<a href="{{ site.baseurl }}/contact/" class="whiteButton" aria-label="Link to the straightline refrigeration contact page">Contact Us</a>
+											<a href="/contact/" class="whiteButton" aria-label="Link to the straightline refrigeration contact page">Contact Us</a>
 
 										</div>
 

@@ -416,7 +416,7 @@ get_header();
 
 										<div class="centeredButton">
 
-											<a href="{{ site.baseurl }}/contact/" class="whiteButton" aria-label="Link to the straightline refrigeration contact page">Contact Us</a>
+											<a href="/contact/" class="whiteButton" aria-label="Link to the straightline refrigeration contact page">Contact Us</a>
 
 										</div>
 
