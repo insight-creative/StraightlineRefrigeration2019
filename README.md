@@ -1,5 +1,5 @@
-# familyAndChildcare
-A custom WordPress website theme for Family and Childcare Resource Center of N.E.W
+# Straightline Refrigeration
+A custom WordPress website theme for Straightline Refrigeration
 
 # :metal: Getting started
 
@@ -7,7 +7,7 @@ A custom WordPress website theme for Family and Childcare Resource Center of N.E
 
 ## :page_with_curl: Pages
 
-Each individual page is titled page - page title ex. home = page - home.php
+Each individual page is titled page-page-title.php ex. home = page-about.php
 
 ## :dancer: Styles
 
