@@ -109,7 +109,7 @@ get_header();
 
 										<p class="whiteText">This custom freezer can hold—and help preserve—millions of pounds of cranberries.</p>
 
-										<a href="/cranberry-freezer/" class="centerButton whiteButton" aria-label="Learn more about the cranberry freezer project">View Project</a>
+										<a href="/projects/cranberry-freezer/" class="centerButton whiteButton" aria-label="Learn more about the cranberry freezer project">View Project</a>
 
 									</div>
 
